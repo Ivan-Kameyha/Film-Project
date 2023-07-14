@@ -1,0 +1,129 @@
+.contenedor-listar {
+    width: 85%;
+    margin: auto;
+}
+
+.contenedor-sliders {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+.ruleta-sliders {
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.sliders {
+    width: 500px;
+    object-fit: cover;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -75%;
+    }
+}
+
+#tituloCartelera {
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+.flechaCartelera {
+    display: block;
+    margin: 0 450px;
+}
+
+.contenedor-posters {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.posters {
+    margin: 15px 0;
+}
+
+.posters_img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: brightness(60%);
+}
+
+.posters_img:hover {
+    filter: brightness(100%);
+}
+
+.titulos {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.info {
+    position: absolute;
+    width: 330px;
+    min-height: 100px;
+    background-color: #222;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    display: none;
+    flex-direction: column;
+    margin-top: -400px;
+    margin-left: 100px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.posters:hover .info {
+    display: flex;
+    animation: show 0.3s ease;
+}
+
+.clasificacion-duracion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion {
+    padding: 10px 0 2px 0;
+    flex: 1;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
+
+.contenedor-posters-sucursales {
+    display: flex;
+}
+
+.contenedor-sucursales {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.contenedor-sucursales img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+}
+

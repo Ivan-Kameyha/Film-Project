@@ -1,0 +1,50 @@
+.nav-contenedor {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  opacity: 0.9;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav-logo {
+  margin: 0 40px;
+  filter: brightness(80%)
+}
+
+.nav-logo:hover {
+  filter: brightness(120%)
+}
+
+.nav-agregar {
+  color: cyan;
+  text-decoration: none;
+  filter: brightness(80%);
+  transition: all 0.2s ease;
+}
+
+.nav-agregar:hover {
+  filter: brightness(120%);
+  border: 2px solid cyan;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.seccion2 {
+  margin-right: 50px;
+}
+
+.nav-redes {
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+  filter: brightness(60%)
+}
+
+.nav-redes:hover {
+  filter: brightness(120%)
+}
+

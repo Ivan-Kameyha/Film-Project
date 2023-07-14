@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.app-contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+footer {
+  height: 60px;
+  background: rgb(10, 10, 10);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+}
+
+
+
+
